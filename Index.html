@@ -1,0 +1,245 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starish - Nairobi's Latest Designer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: black;
+            color: white;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .logo {
+            width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+        .image-grid img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .order-form {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            border-radius: 5px;
+        }
+        button {
+            background-color: orange;
+            color: black;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        a {
+            color: orange;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="background-color: orange; color: black; padding: 20px; text-align: center; border-radius: 5px;">
+    WELCOME TO STARISH 
+</h2>
+
+  
+  
+   <div class="container">
+        <img src="starish.jpg" alt="Starish Logo" width="350" height="350"
+         
+            
+        <p>Discover Starish </p>
+            <p> Nairobi's premier destination for high-quality, custom-tailored clothing.Experience our dedication to craftsmanship and style, designed to elevate your wardrobe with care and precision.</p>
+        
+            
+            <h2 style="background-color: orange; color: black; padding: 10px; text-align: center; border-radius: 5px;">
+    Clothing selection
+</h2>
+            
+        <div class="image-grid">
+            <img src="bell-bottoms.jpg" alt="Bell-bottoms">
+            <p>BEll BOTTOM JEANS</p>
+            <img src="bluebaggy.jpg" alt="Clothing 2">
+            <p>BAGGY JEANS</p>
+            <img src="hipp.jpg" alt="Clothing 3">
+            <p>HIPP STAR</p>
+            <img src="mm.jpg" alt="Clothing 4">
+            <p>MUMMY JEANS</p>
+            <img src="dot.jpg" alt="Clothing 5">
+            <p>WIDE LEG HIGH WAIST</p>
+            <img src="jj.jpg" alt="Clothing 6">
+            <p>WIDE LEG JEANS</p>
+            
+        </div>
+        
+             <h2 style="background-color: orange; color: black; padding: 10px; text-align: center; border-radius: 5px;">
+    Design selection
+</h2>
+
+        <div class="image-grid">
+            <img src="all-nighter.jpg" alt="Design 1">
+            <p>ALL NIGHTER</p>
+            <img src="aapex.jpg" alt="Design 2">
+            <p>APEX</p>
+            <img src="bbape.jpg" alt="Design 3">
+            <p>BAPE</p>
+            <img src="bbloom.jpg" alt="Design 4">
+            <p>BLOOM</p>
+            <img src="llogo.jpg" alt="Design 5">
+            <p>STARISH</p>
+                
+            <img src="north-polaris.jpg" alt="Design 6">
+            
+            <p>NORTH POLARIS</p>
+            <img src="nnova.jpg" alt="Design 7">
+            <p>NOVA</p>
+            <img src="oonxy.jpg" alt="Design 8">
+            <p>ONXY</p>
+            <img src="ppearl.jpg" alt="Design 9">
+            <p>PEARL</p>
+            <img src="sstar.jpg" alt="Design 10">
+            <p>STAR</p>
+            <img src="sstarburst.jpg" alt="Design 11">
+            <p>STARBURST</p>
+            <img src="sstellar-path.jpg" alt="Design 12">
+            <p>STELLAR PATH</p>
+            <img src="ttrio-stars.jpg" alt="Design 13">
+            <p>TRIO STARS</p>
+            <img src="twin-prisms.jpg" alt="Design 14">
+            <p>TWIN PRISMS</p>
+            <img src="vvenus.jpg" alt="Design 14">
+            <p>VENUS</p>
+            <img src="vvortex.jpg" alt="Design 14">
+            <p>VORTEX</p>
+        </div>
+        
+            <h2 style="background-color: orange; color: black; padding: 10px; text-align: center; border-radius: 5px;">
+    Place Your Order
+</h2>
+        <form class="order-form" onsubmit="sendOrder(); return false;">
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Your Address" required>
+            <input type="tel" placeholder="Your Phone Number" required>
+            <select required>
+                <option value="">Select Waist Size</option>
+                <option value="28">28</option>
+                <option value="30">30</option>
+                <option value="32">32</option>
+                <option value="34">34</option>
+                <option value="36">36</option>
+                <option value="38">38</option>
+            </select>
+            <select required>
+                <option value="">Select Length Size</option>
+                <option value="38">38</option>
+                <option value="40">40</option>
+                <option value="42">42</option>
+                <option value="44">44</option>
+                <option value="46">46</option>
+                <option value="48">48</option>
+                <option value="49">49</option>
+                <option value="50">50</option>
+                <option value="51">51</option>
+            </select>
+            <select required>
+                <option value="">Select jeans type</option>
+            <option value="bell bottom jeans ">BEll BOTTOM JEANS</option>
+                <option value="baggy  jeans ">BAGGY JEANS</option>
+                <option value="hipp star jeans ">HIPP STAR JEANS</option>
+                <option value=" mummy jeans ">BEll BOTTOM JEANS</option>
+                <option value="wide leg high waist jeans  ">BEll BOTTOM JEANS</option>
+                <option value="wide leg  jeans ">BEll BOTTOM JEANS</option>
+               
+            </select>
+            
+            <select required>
+                <option value="">Select Design </option>
+                <option value="all nighter">All nighter</option>
+                <option value="apex">Apex</option>
+                <option value="bape">Bape</option>
+                <option value="bloom">Bloom</option>
+                <option value="north polaris">North Polaris</option>
+                <option value="starish">Starish</option>
+                <option value="nova">Nova</option>
+                <option value="onxy">Onxy</option>
+                <option value="pearl">Pearl</option>
+                <option value="star">Star</option>
+                <option value="starburst">starburst</option>
+                <option value="stellar path">Stellar path</option>
+                <option value="trio stars">Trio stars</option>
+                <option value="twin prisms">Twin prisms</option>
+                 <option value="venus">Venus</option>
+                <option value="vortex">Vortex</option>
+            </select>
+            <button type="submit">Order Now</button>
+        </form>
+       
+    </div>
+    <form id="otpForm">
+    <label>Enter your phone number:</label>
+    <input type="text" id="phone" placeholder="Enter M-Pesa number" required>
+    <button type="button" onclick="sendOTP()">Send OTP</button>
+
+    <br><br>
+
+    <label>Enter OTP:</label>
+    <input type="text" id="otp" placeholder="Enter OTP" required>
+    <button type="button" onclick="verifyOTP()">Verify OTP</button>
+</form>
+
+<script>
+function sendOTP() {
+    let phone = document.getElementById("phone").value;
+    
+    fetch('/send-otp', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ phone: phone })
+    })
+    .then(response => response.json())
+    .then(data => alert(data.message));
+}
+
+function verifyOTP() {
+    let phone = document.getElementById("phone").value;
+    let otp = document.getElementById("otp").value;
+    
+    fetch('/verify-otp', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ phone: phone, otp: otp })
+    })
+    .then(response => response.json())
+    .then(data => alert(data.message));
+}
+</script>
+       
+       
+        <p><a href="mailto:starishr.j@gmail.com">Email: starishr.j@gmail.com</a></p>
+        <p><a href="tel:+254793383490">Phone: 0793383490</a></p>
+       <p> starish 2025  
+        
+    </p>
+    <p> founder:RYAN</p>
+       
+</body>
+</html>
